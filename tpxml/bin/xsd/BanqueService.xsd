@@ -7,12 +7,12 @@
 	<element name="BanqueService">
 		<complexType>
 			<sequence>
-				<element name="conversion" type="tns:conversion"></element>
-				<element name="getComptes" type="tns:compte" minOccurs="1"
+				<element name="conversion" type="conversion"></element>
+				<element name="getComptes" type="compte" minOccurs="1"
 					maxOccurs="unbounded">
 
 				</element>
-				<element name="getCompte" type="tns:compte">
+				<element name="getCompte" type="compte">
 
 				</element>
 			</sequence>
