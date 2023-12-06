@@ -16,7 +16,8 @@ import java.util.Date;
 // The Compte class represents a bank account entity.
 public class Compte {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Indicates that the ID should be generated automatically.
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Indicates that the ID should
+                                                        // be generated automatically.
     @Column(name = "id") // Specify the column name in the database.
     private Long Id;
 
